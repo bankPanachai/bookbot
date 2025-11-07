@@ -22,7 +22,7 @@ def main():
   result.sort(reverse=True, key=sort_on) # sort
   #display(result) # Charactor count
   print(f"============ BOOKBOT ============")
-  print(f"Analyzing book found at books/frankenstein.txt...")
+  print(f"Analyzing book found at {path}...")
   print(f"----------- Word Count ----------")
   print(f"Found {total_word} total words")
   print(f"--------- Character Count -------")
